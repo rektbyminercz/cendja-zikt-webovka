@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poctivé Stolařství | Nábytek na míru</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">STOLAŘSTVÍ</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#sluzby">Služby</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Naše práce</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#kontakt">Kontakt</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-section text-white d-flex align-items-center">
+        <div class="container text-center">
+            <h1 class="display-2 fw-bold">Vůně dřeva, kvalita na věky</h1>
+            <p class="lead">Vyrábíme unikátní nábytek na míru pro váš domov i kancelář.</p>
+            <a href="#kontakt" class="btn btn-primary btn-lg mt-3">Nezávazná poptávka</a>
+        </div>
+    </header>
+
+    <section id="sluzby" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Co nabízíme</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body text-center">
+                            <h3>Kuchyně</h3>
+                            <p>Navrhneme a postavíme kuchyni, kde bude radost vařit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body text-center">
+                            <h3>Ložnice</h3>
+                            <p>Postele z masivu a šatní skříně, které vydrží generace.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body text-center">
+                            <h3>Doplňky</h3>
+                            <p>Originální dřevěné dekorace a drobné kusy nábytku.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="kontakt" class="py-5 bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <h2 class="text-center mb-4">Napište nám</h2>
+                    <form id="contactForm">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Vaše jméno" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="E-mail" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="4" placeholder="Vaše představa o projektu..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-dark w-100">Odeslat poptávku</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-4 bg-dark text-white text-center">
+        <p>&copy; 2026 Stolařství - Všechna práva vyhrazena</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
