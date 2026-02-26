@@ -1,0 +1,31 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+.hero-section {
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+                url('https://images.unsplash.com/photo-1581428982868-e410dd047a90?q=80&w=2070') no-repeat center center/cover;
+}
+
+.btn-primary {
+    background-color: #8b4513; /* Sedlová hnědá */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #5d2e0d;
+}
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
