@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    color: #333;
+    color: #954511;
 }
 
 h1, h2, h3 {
@@ -14,7 +14,7 @@ h1, h2, h3 {
 }
 
 .btn-primary {
-    background-color: #8b4513; /* Sedlová hnědá */
+    background-color: #201913; /* Sedlová hnědá */
     border: none;
 }
 
